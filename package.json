@@ -1,0 +1,17 @@
+{
+  "name": "development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "strictequal.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "./node_modules/.bin/mocha ./*.test.js"
+  },
+  "author": "Cody Pluchak",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.30.0",
+    "mocha": "^9.0.2"
+  }
+}
