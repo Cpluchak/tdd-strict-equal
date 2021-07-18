@@ -2,11 +2,12 @@
   "name": "development",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "strictequal.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "./node_modules/.bin/mocha ./*.test.js"
   },
-  "author": "",
+  "author": "Cody Pluchak",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.4",
